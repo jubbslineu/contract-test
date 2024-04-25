@@ -1,0 +1,1 @@
+export * from '../../build/NftCollectionRoyaltyMock/tact_NftCollectionRoyaltyMock';

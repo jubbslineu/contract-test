@@ -1,0 +1,1 @@
+export * from "../../build/ToygerMock/tact_ToygerMock";

@@ -1,0 +1,1 @@
+export * from '../../build/ToygerCollection/tact_ToygerItem';

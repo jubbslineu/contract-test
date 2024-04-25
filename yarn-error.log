@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @tact-lang
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Users\yuria\ton\bin;C:\Users\yuria\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\msys64\ming64\bin;C:\msys64\ming32\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\yuria\ton-binaries;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\Users\yuria\.cargo\bin;C:\Users\yuria\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\yuria\AppData\Local\Programs\Python\Python311\;C:\Users\yuria\AppData\Local\Microsoft\WindowsApps;C:\Users\yuria\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuria\AppData\Local\Yarn\bin;C:\Users\yuria\AppData\Local\Programs\IPFS Desktop\resources\app.asar.unpacked\src\ipfs-on-path\scripts\bin-win;C:\Users\yuria\AppData\Roaming\npm;C:\Users\yuria\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\msys64\mingw64\bin;C:\msys64\ming32\bin;C:\Users\yuria\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;C:\Users\yuria\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\yuria\go\bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  19.8.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@tact-lang: Request "https://registry.yarnpkg.com/@tact-lang" returned a 405
+      at params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66149:18)
+      at self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140885:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141857:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141779:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+      "name": "toygers-contracts",
+      "version": "0.0.1",
+      "scripts": {
+          "start": "blueprint run",
+          "build": "blueprint build",
+          "test": "jest --verbose"
+      },
+      "devDependencies": {
+          "@ton/blueprint": "^0.14.2",
+          "@ton/sandbox": "^0.13.1",
+          "@ton/test-utils": "^0.4.2",
+          "@types/jest": "^29.5.0",
+          "@types/node": "^20.2.5",
+          "jest": "^29.5.0",
+          "prettier": "^3.1.0",
+          "@ton/ton": "^13.9.0",
+          "@ton/core": "^0.53.0",
+          "@ton/crypto": "^3.2.0",
+          "ts-jest": "^29.0.5",
+          "ts-node": "^10.9.1",
+          "typescript": "^5.3.2"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
